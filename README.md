@@ -10,7 +10,7 @@ You can use native segger application ("J-Flash" or "J-Flash lite") for flashing
 Alternatively, if you don't have j-link, you can flash via any Raspberry Pi by using OpenOCD.
 Once you do it - write little instruction how and I will add it here :)
 
-This is minimal required schematics to use CC2538 (for module I use):
+This is minimal required schematics to use CC2538 (pinout for module I use):
 
 ![alt text](https://github.com/antst/CC2538ZNP/raw/master/60423818-46deb400-9bef-11e9-8f71-8024a5a03d4e.png)
 
