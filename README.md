@@ -5,4 +5,6 @@ To be used with Z2M.
 
 Make use of native USB interface on C2538.
 
-Flash firmware with J-Link.
+Flash firmware with J-Link. (Using JTAG or ccJTAG interface).
+
+
