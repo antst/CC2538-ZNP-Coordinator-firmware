@@ -20,4 +20,4 @@ Power regulator circuit (surrounded by dashed line) can be replaced by cheap sim
 
 If you choose another CC2538 module, then you need to figure out pinout yourself. Practically, there are two most common modules, the one I used (which has PCB antenna and IPX connector for external one) and another one which has only IPX. IMPORTANT: Pinout of those modules is different.
 
-Be aware that there is no use for USB-UART adapter, as USB is native. Trying to avoid soldering 3 resistors and 2 capacitors by connecting to the USB-UART will not work ). It is native USB. It is not UART. It is not CC2530 )
+Be aware that there is no use for USB-UART adapter, as USB is native. Trying to avoid soldering 3 resistors and 2 capacitors by connecting to the USB-UART will not work ). It is native USB. It is not UART. It is not CC2530 :)
