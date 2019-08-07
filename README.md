@@ -21,3 +21,14 @@ Power regulator circuit (surrounded by dashed line) can be replaced by cheap sim
 If you choose another CC2538 module, then you need to figure out pinout yourself. Practically, there are two most common modules, the one I used (which has PCB antenna and IPX connector for external one) and another one which has only IPX. IMPORTANT: Pinout of those modules is different.
 
 Be aware that there is no use for USB-UART adapter, as USB is native. Trying to avoid soldering 3 resistors and 2 capacitors by connecting to the USB-UART will not work ). It is native USB. It is not UART. It is not CC2530 :)
+
+In order to improve lattency, in zigbee2mqtt you can(and have to!) reduce delay in the queue. In configuration.yaml (at least in dev branch, and should be available in release from some version), there is a new section with new parameter:
+
+```
+ queue:
+   delay: 5
+```
+
+Default delay between commands in zigbee2mqtt is 250ms. Which makes it 1 second to turn on 5 lamps. With CC2538 I am able to achieve the same over 20ms. 
+
+
