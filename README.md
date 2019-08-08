@@ -1,7 +1,7 @@
 # CC2538ZNP
 
 Here is experimental coordinator firmware for CC2538+CC2592 modules.
-To be used with Z2M.
+To be used with zigbee2mqtt, ioBroker and the rest.
 
 Make use of native USB interface on C2538.
 
