@@ -1,7 +1,7 @@
 # CC2538ZNP
 
 Here is experimental coordinator firmware for CC2538+CC2592 modules.
-To be used with Z2M.
+To be used with zigbee2mqtt, ioBroker and the rest.
 
 Make use of native USB interface on C2538.
 
@@ -31,4 +31,7 @@ In order to improve lattency, in zigbee2mqtt you can(and have to!) reduce delay 
 
 Default delay between commands in zigbee2mqtt is 250ms. Which makes it 1 second to turn on 5 lamps. With CC2538 I am able to achieve the same over 20ms. 
 
+Here is also information about a bit more settled schematics, PCB layout and BOM for [USB stick with this module](https://modkam.ru/?p=1112#more-1112). (Courtesy of Jager, who made it) It is in Russian, but BOM and gerber files are international :) PCB is spceicifally designed to allow flexibility. You can solder USB-A and use as stick, or can solder micro-USB and use on cable. You also have freedom to use or not external antenae. If you don't want it, do not solder connector. But keep in mind, if you use external antena, you will need to resolder one resistor on module (shown there on picture with arrow).
 
+Keep in mind, while LEDs are in the design of schematics, current firmware doesn't use them, I am focused at the moment on principal task of getting it very right. LEDs will come as bonus (still usefull though).
+There is also instruction [how to flash with J-Link](https://modkam.ru/?p=1188). It is in Russian also, but it mostly set of self-explanatory screenshoots, and almost no text :)
